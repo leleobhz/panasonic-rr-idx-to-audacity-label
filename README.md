@@ -8,7 +8,7 @@ This liitle python application converts Index files from Panasonic RR recorders 
 ./panasonic-rr-idx-to-audacity-label.py <Path to IDX file>
 ```
 
-* Files will be saved on same folder with **.txt** extension.
+* Files will be saved on same folder of IDX with **.txt** extension.
 
 ## Sample result:
 
