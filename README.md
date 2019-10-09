@@ -10,6 +10,10 @@ This liitle python application converts Index files from Panasonic RR recorders 
 
 * Files will be saved on same folder with **.txt** extension.
 
+## Sample result:
+
+![Audacity Sample](https://user-images.githubusercontent.com/201189/66493511-92c1b480-ea8c-11e9-9fc2-69a1703dce08.png)
+
 ## Author
 
 * Leonardo Amaral <desenvolvimento@zenithtecnologia.com.br>
