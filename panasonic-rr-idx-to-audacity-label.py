@@ -20,10 +20,14 @@ import os
 def eprint(*args, **kwargs):
     print(*args, file=sys.stderr, **kwargs)
 
-filepath = sys.argv[1]
+if len(sys.argv) >= 2:
+    filepath = sys.argv[1]
+else:
+    print("No parameter has been included")
+    sys.exit(1)
 
 if not os.path.exists(filepath):
-    eprint("File", filepath, " not found!")
+    eprint("File", filepath, "not found!")
     sys.exit(1)
 
 with open(filepath, "rb") as index_file:
